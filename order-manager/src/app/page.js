@@ -1,10 +1,10 @@
 import React from "react";
-import ArtworksPage from "./Components/TestAPI";
+import TestData from "./Components/TestAPI";
 
 export default function Home() {
   return (
     <div >
-      <ArtworksPage/>
+      <TestData/>
     </div>
   );
 }
