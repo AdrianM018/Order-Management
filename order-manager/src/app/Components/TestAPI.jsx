@@ -10,7 +10,6 @@ export default async function TestData() {
       throw new Error('Failed to fetch data because', Error);
     }
     const data = await res.json();
-    console.log(data.data)
 
     return(
       <>
